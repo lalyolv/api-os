@@ -6,8 +6,8 @@ export class AutenticacaoService {
   private usuarioFixo = {
     id: 1,
     nome: 'Usuário Teste',
-    email: 'usuario@teste.com',
-    senha: '123', // Senha fixa temporária para testar
+    email: 'teste@teste.com',
+    senha: 'teste', // Senha fixa temporária para testar
   }
 
   constructor(private readonly jwtService: JwtService) {}
